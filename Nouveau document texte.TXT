@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Interview Production - Communication & Multimédia</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Section Header / Navbar -->
+    <header>
+        <div class="logo">L'Interview Production</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#videos">Vidéos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section Accueil -->
+    <section id="home" class="home-section">
+        <div class="hero">
+            <h1>Votre cabinet en communication et production multimédia</h1>
+            <p>Nous créons des stratégies de communication impactantes pour vos projets</p>
+            <a href="#contact" class="btn">Nous Contacter</a>
+        </div>
+    </section>
+
+    <!-- Section Services -->
+    <section id="services" class="services-section">
+        <h2>Nos Services</h2>
+        <div class="service-boxes">
+            <div class="service-box">
+                <h3>Consulting en Communication</h3>
+                <p>Des solutions sur mesure pour booster votre visibilité.</p>
+            </div>
+            <div class="service-box">
+                <h3>Production Vidéo</h3>
+                <p>Nous créons des vidéos professionnelles pour promouvoir vos idées.</p>
+            </div>
+            <div class="service-box">
+                <h3>Gestion des Médias Sociaux</h3>
+                <p>Optimisez votre présence en ligne grâce à notre expertise.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Vidéos -->
+    <section id="videos" class="videos-section">
+        <h2>Nos Réalisations</h2>
+        <div class="video-gallery">
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vidéo 1" allowfullscreen></iframe>
+                <p>Vidéo de Présentation</p>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/sGbxmsDFVnE" title="Vidéo 2" allowfullscreen></iframe>
+                <p>Publicité d'Entreprise</p>
+            </div>
+            <div class="video-item">
+                <iframe src="https://www.youtube.com/embed/3JZ_D3ELwOQ" title="Vidéo 3" allowfullscreen></iframe>
+                <p>Documentaire</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact-section">
+        <h2>Contactez-nous</h2>
+        <form action="#">
+            <input type="text" name="nom" placeholder="Votre nom" required>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 L'Interview Production | Tous droits réservés</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+</body>
+</html>
